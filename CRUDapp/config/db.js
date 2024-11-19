@@ -20,4 +20,4 @@ db.getConnection((err, connection) => {
   }
 });
 
-module.exports = db.promise(); // Exporting a Promise-based connectio
+module.exports = db.promise(); // Exporting a Promise-based connection
